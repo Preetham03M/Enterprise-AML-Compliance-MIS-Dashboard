@@ -72,6 +72,15 @@ Offers deeper insights into transaction patterns through:
 
 ---
 
+## Business Insights
+
+- US Dollar recorded the highest transaction volume among all receiving currencies.
+- ACH accounted for the highest number of suspicious transactions.
+- Cheque payments contributed the largest overall transaction amount.
+- The dashboard enables quick identification of payment trends and high-risk transaction categories.
+
+---
+
 ## Project Structure
 
 ```
@@ -102,4 +111,10 @@ Enterprise AML Compliance MIS Dashboard
 
 ## Note
 
-The original dataset and Power BI report exceed GitHub's file size limit and therefore are not included in this repository. Dashboard screenshots and documentation are provided to demonstrate the project structure, design, and analysis.
+The original Power BI (.pbix) file and the full transaction dataset exceed GitHub's standard file size limit and are therefore not included in this repository. The screenshots and documentation accurately represent the completed dashboard and its functionality.
+
+---
+
+## Dataset
+
+This project uses a synthetic financial transaction dataset created for AML reporting and dashboard development. No real customer or banking data is included.
