@@ -1,66 +1,45 @@
 # Enterprise AML Compliance MIS Dashboard
 
+An interactive Power BI dashboard built to analyze financial transactions and support Anti-Money Laundering (AML) reporting. The dashboard provides an executive summary along with detailed transaction insights using KPIs, DAX measures, and interactive visualizations.
+
+---
+
 ## Project Overview
 
-This project is an Enterprise Anti-Money Laundering (AML) Compliance Management Information System (MIS) Dashboard developed using Microsoft Power BI. The dashboard analyzes a synthetic financial transaction dataset to provide meaningful insights into transaction volume, payment methods, currencies, and suspicious activities.
+Financial institutions process millions of transactions every day, making it difficult to identify unusual activity manually. This dashboard demonstrates how Power BI can be used to monitor transaction volume, payment trends, currencies, and suspicious transactions through an easy-to-understand reporting interface.
 
-The objective of this project is to demonstrate business intelligence, reporting, and dashboard skills relevant to AML Compliance, Risk Analytics, and MIS Reporting.
-
----
-
-## Business Problem
-
-Financial institutions process millions of transactions every day. Compliance teams require interactive dashboards to monitor transaction activity, identify suspicious patterns, and generate management reports for informed decision-making.
-
-This dashboard provides:
-
-- Executive KPI reporting
-- Transaction monitoring
-- Suspicious transaction analysis
-- Currency analysis
-- Payment method analysis
-- Interactive filtering
+The project focuses on presenting compliance data in a format suitable for management reporting and operational analysis.
 
 ---
 
-## Tools & Technologies
+## Tech Stack
 
-- Microsoft Power BI Desktop
+- Microsoft Power BI
 - Power Query
-- DAX (Data Analysis Expressions)
+- DAX
 - Microsoft Excel
-- IBM Synthetic AML Transaction Dataset
 
 ---
 
 ## Dashboard Pages
 
-### Page 1 – Executive Dashboard
+### Executive Dashboard
 
-KPIs
+Provides a high-level summary of AML metrics, including:
 
 - Total Transactions
 - Total Transaction Amount
 - Average Transaction Amount
 - Suspicious Transactions
-- Suspicious Transaction %
-
-Visuals
-
-- Total Transaction Amount by Payment Currency
+- Suspicious Transaction Percentage
+- Payment Currency Analysis
 - Suspicious Transactions by Payment Format
-
-Interactive Filters
-
-- Payment Format
-- Payment Currency
-- Receiving Currency
 
 ---
 
-### Page 2 – Detailed Analysis
+### Detailed Analysis
 
-Visuals
+Offers deeper insights into transaction patterns through:
 
 - Total Transactions by Receiving Currency
 - Suspicious Transactions by Receiving Currency
@@ -71,39 +50,57 @@ Visuals
 
 ## Key Features
 
-- Interactive Power BI dashboard
-- KPI Cards
-- DAX Measures
-- Power Query data transformation
+- Interactive KPI cards
 - Dynamic filtering using slicers
-- Executive and analytical reporting
-- AML-focused business insights
+- DAX measures for business calculations
+- Data transformation with Power Query
+- Currency-wise transaction analysis
+- Payment format analysis
+- AML compliance reporting dashboard
 
 ---
 
-## Dataset
+## Dashboard Preview
 
-Dataset Used:
-IBM Synthetic AML Transaction Dataset
+### Executive Dashboard
 
-The dataset contains synthetic financial transactions designed for Anti-Money Laundering analytics and educational purposes.
+![Executive Dashboard](Images/Page1%20Executive%20Dashboard.png)
+
+### Detailed Analysis
+
+![Detailed Analysis](Images/Page2%20Detailed%20Analysis.png)
 
 ---
 
 ## Project Structure
 
-```text
-AML-Compliance-Dashboard
+```
+Enterprise AML Compliance MIS Dashboard
 │
 ├── Dataset
 ├── Documentation
-├── Excel
 ├── Images
-└── PowerBI
+├── PowerBI
+└── README.md
 ```
 
 ---
 
-## Author
+## Skills Demonstrated
 
-Preetham Manigonda
+- Power BI Dashboard Development
+- Power Query
+- DAX
+- Data Cleaning
+- Data Transformation
+- KPI Design
+- Data Visualization
+- Business Intelligence Reporting
+- Financial Data Analysis
+- AML Compliance Reporting
+
+---
+
+## Note
+
+The original dataset and Power BI report exceed GitHub's file size limit and therefore are not included in this repository. Dashboard screenshots and documentation are provided to demonstrate the project structure, design, and analysis.
