@@ -1,6 +1,6 @@
-# Enterprise Financial Transaction Monitoring Dashboard
+# Enterprise Transaction Risk Monitoring Dashboard
 
-An interactive Power BI dashboard built to analyze financial transactions and support Anti-Money Laundering (AML) reporting. The dashboard provides an executive summary along with detailed transaction insights using KPIs, DAX measures, and interactive visualizations.
+An interactive Power BI dashboard developed to monitor enterprise financial transactions and provide risk-focused insights through executive KPIs, DAX measures, Power Query transformations, and interactive visualizations. Built using the IBM Synthetic Financial Transaction Dataset, the dashboard provides management-ready insights into transaction volume, payment trends, currency distribution, and suspicious transaction activity.
 
 ---
 
@@ -8,7 +8,7 @@ An interactive Power BI dashboard built to analyze financial transactions and su
 
 Financial institutions process millions of transactions every day, making it difficult to identify unusual activity manually. This dashboard demonstrates how Power BI can be used to monitor transaction volume, payment trends, currencies, and suspicious transactions through an easy-to-understand reporting interface.
 
-The project focuses on transforming financial transaction data into meaningful business insights for management reporting and operational decision-making.
+The project focuses on monitoring transaction activity, highlighting suspicious transaction patterns, and transforming financial transaction data into actionable business insights for management reporting and operational decision-making.
 
 ---
 
@@ -24,8 +24,7 @@ The project focuses on transforming financial transaction data into meaningful b
 ## Dashboard Pages
 
 ### Executive Dashboard
-
-Provides a high-level summary of AML metrics, including:
+Provides a high-level overview of transaction risk metrics through interactive KPIs and visualizations, including:
 
 - Total Transactions
 - Total Transaction Amount
@@ -56,7 +55,7 @@ Offers deeper insights into transaction patterns through:
 - Data transformation with Power Query
 - Currency-wise transaction analysis
 - Payment format analysis
-- AML compliance reporting dashboard
+- Suspicious transaction monitoring
 
 ---
 
@@ -77,7 +76,7 @@ Offers deeper insights into transaction patterns through:
 - Payment Currency analysis highlights transaction value across currencies.
 - Receiving Currency analysis identifies transaction distribution patterns.
 - Payment Format analysis reveals the transaction channels processing the highest monetary value.
-- Suspicious transaction monitoring provides visibility into higher-risk transaction activity.
+- Suspicious transaction monitoring highlights transaction risk patterns and supports faster operational review.
 - Interactive slicers enable faster filtering and operational reporting.
 
 ---
@@ -85,7 +84,7 @@ Offers deeper insights into transaction patterns through:
 ## Project Structure
 
 ```
-Enterprise AML Compliance MIS Dashboard
+Enterprise-Transaction-Risk-Monitoring-Dashboard
 │
 ├── Dataset
 ├── Images
@@ -106,12 +105,13 @@ Enterprise AML Compliance MIS Dashboard
 - Data Visualization
 - Business Intelligence Reporting
 - Financial Data Analysis
+- Risk Monitering
 
 ---
 
 ## Dataset
 
-This project uses a IBM synthetic financial transaction dataset created for AML reporting and dashboard development. No real customer or banking data is included.
+This project uses the IBM Synthetic Financial Transaction Dataset created for AML research and dashboard development. No real customer or banking data is included.
 
 ---
 
