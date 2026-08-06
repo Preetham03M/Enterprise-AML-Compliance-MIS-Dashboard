@@ -12,6 +12,15 @@ The project focuses on monitoring transaction activity, highlighting suspicious 
 
 ---
 
+## Project Objectives
+
+- Monitor enterprise financial transactions using interactive dashboards.
+- Analyze payment methods and currency distributions.
+- Identify suspicious transaction activity and laundering patterns.
+- Deliver executive-ready insights for operational reporting.
+
+---
+
 ## Tech Stack
 
 - Microsoft Power BI
@@ -47,6 +56,20 @@ Offers deeper insights into transaction patterns through:
 
 ---
 
+### Money Laundering Pattern Analysis
+
+Provides insights into suspicious transaction patterns using IBM synthetic laundering data, including:
+
+- Pattern Transactions
+- Pattern Types
+- Total Amount Paid
+- Average Amount Paid
+- Suspicious Transactions
+- Transaction Distribution by Laundering Pattern
+- Pattern Distribution
+
+---
+  
 ## Key Features
 
 - Interactive KPI cards
@@ -56,6 +79,7 @@ Offers deeper insights into transaction patterns through:
 - Currency-wise transaction analysis
 - Payment format analysis
 - Suspicious transaction monitoring
+- Money laundering pattern analysis
 
 ---
 
@@ -69,6 +93,10 @@ Offers deeper insights into transaction patterns through:
 
 ![Detailed Analysis](Images/Page2%20Detailed%20Analysis.png)
 
+### Money Laundering Pattern Analysis
+
+![Money Laundering Pattern Analysis](Images/Page3%20Money%20Laundering%20Pattern%20Analysis.png)
+
 ---
 
 ## Business Insights
@@ -78,6 +106,8 @@ Offers deeper insights into transaction patterns through:
 - Payment Format analysis reveals the transaction channels processing the highest monetary value.
 - Suspicious transaction monitoring highlights transaction risk patterns and supports faster operational review.
 - Interactive slicers enable faster filtering and operational reporting.
+- Laundering pattern analysis identifies the most frequently occurring suspicious transaction structures.
+- Pattern distribution supports transaction monitoring by highlighting dominant money laundering behaviors.
 
 ---
 
@@ -105,7 +135,8 @@ Enterprise-Transaction-Risk-Monitoring-Dashboard
 - Data Visualization
 - Business Intelligence Reporting
 - Financial Data Analysis
-- Risk Monitering
+- Risk Monitoring
+- Financial Transaction Monitoring
 
 ---
 
