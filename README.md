@@ -1,6 +1,6 @@
 # Enterprise Financial Transaction Monitoring Dashboard
 
-An interactive Power BI dashboard built to analyze financial transactions and support Anti-Money Laundering (AML) reporting. The dashboard provides an executive summary along with detailed transaction insights using KPIs, DAX measures, and interactive visualizations.
+An interactive Power BI dashboard developed to monitor and analyze financial transaction data through executive KPIs, DAX measures, Power Query transformations, and interactive visualizations. Using an AML-inspired synthetic financial transaction dataset, the dashboard provides management-ready insights into transaction volume, payment trends, currency distribution, and suspicious transaction metrics.
 
 ---
 
@@ -24,8 +24,7 @@ The project focuses on transforming financial transaction data into meaningful b
 ## Dashboard Pages
 
 ### Executive Dashboard
-
-Provides a high-level summary of AML metrics, including:
+Provides a high-level overview of key financial transaction metrics through interactive KPIs and visualizations, including:
 
 - Total Transactions
 - Total Transaction Amount
@@ -56,7 +55,6 @@ Offers deeper insights into transaction patterns through:
 - Data transformation with Power Query
 - Currency-wise transaction analysis
 - Payment format analysis
-- AML compliance reporting dashboard
 
 ---
 
