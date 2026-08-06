@@ -109,12 +109,12 @@ Enterprise AML Compliance MIS Dashboard
 
 ---
 
-## Note
-
-The original Power BI (.pbix) file and the full transaction dataset exceed GitHub's standard file size limit and are therefore not included in this repository. The screenshots and documentation accurately represent the completed dashboard and its functionality.
-
----
-
 ## Dataset
 
 This project uses a synthetic financial transaction dataset created for AML reporting and dashboard development. No real customer or banking data is included.
+
+---
+
+## Note
+
+The original Power BI (.pbix) file and the full transaction dataset exceed GitHub's standard file size limit and are therefore not included in this repository. The screenshots and documentation accurately represent the completed dashboard and its functionality.
