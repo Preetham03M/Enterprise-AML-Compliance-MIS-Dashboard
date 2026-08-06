@@ -85,7 +85,7 @@ Offers deeper insights into transaction patterns through:
 ## Project Structure
 
 ```
-Enterprise AML Compliance MIS Dashboard
+Financial-Transaction-Monitoring-Dashboard-PowerBI
 │
 ├── Dataset
 ├── Images
