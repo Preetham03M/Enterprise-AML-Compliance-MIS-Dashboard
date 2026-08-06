@@ -1,4 +1,4 @@
-# Enterprise AML Compliance MIS Dashboard
+# Enterprise Financial Transaction Monitoring Dashboard
 
 An interactive Power BI dashboard built to analyze financial transactions and support Anti-Money Laundering (AML) reporting. The dashboard provides an executive summary along with detailed transaction insights using KPIs, DAX measures, and interactive visualizations.
 
@@ -8,7 +8,7 @@ An interactive Power BI dashboard built to analyze financial transactions and su
 
 Financial institutions process millions of transactions every day, making it difficult to identify unusual activity manually. This dashboard demonstrates how Power BI can be used to monitor transaction volume, payment trends, currencies, and suspicious transactions through an easy-to-understand reporting interface.
 
-The project focuses on presenting compliance data in a format suitable for management reporting and operational analysis.
+The project focuses on transforming financial transaction data into meaningful business insights for management reporting and operational decision-making.
 
 ---
 
@@ -17,7 +17,7 @@ The project focuses on presenting compliance data in a format suitable for manag
 - Microsoft Power BI
 - Power Query
 - DAX
-- Microsoft Excel
+- Microsoft Excel (Data Preparation)
 
 ---
 
@@ -74,10 +74,11 @@ Offers deeper insights into transaction patterns through:
 
 ## Business Insights
 
-- US Dollar recorded the highest transaction volume among all receiving currencies.
-- ACH accounted for the highest number of suspicious transactions.
-- Cheque payments contributed the largest overall transaction amount.
-- The dashboard enables quick identification of payment trends and high-risk transaction categories.
+- Payment Currency analysis highlights transaction value across currencies.
+- Receiving Currency analysis identifies transaction distribution patterns.
+- Payment Format analysis reveals the transaction channels processing the highest monetary value.
+- Suspicious transaction monitoring provides visibility into higher-risk transaction activity.
+- Interactive slicers enable faster filtering and operational reporting.
 
 ---
 
@@ -96,7 +97,7 @@ Enterprise AML Compliance MIS Dashboard
 
 ## Skills Demonstrated
 
-- Power BI Dashboard Development
+- Power BI
 - Power Query
 - DAX
 - Data Cleaning
@@ -105,13 +106,12 @@ Enterprise AML Compliance MIS Dashboard
 - Data Visualization
 - Business Intelligence Reporting
 - Financial Data Analysis
-- AML Compliance Reporting
 
 ---
 
 ## Dataset
 
-This project uses a synthetic financial transaction dataset created for AML reporting and dashboard development. No real customer or banking data is included.
+This project uses a IBM synthetic financial transaction dataset created for AML reporting and dashboard development. No real customer or banking data is included.
 
 ---
 
